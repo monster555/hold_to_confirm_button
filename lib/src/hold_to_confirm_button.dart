@@ -142,16 +142,19 @@ class _HoldToConfirmButtonState extends State<HoldToConfirmButton>
                   ],
                 ).createShader(rect);
               },
-              child: Container(
-                padding: widget.contentPadding,
-                decoration: BoxDecoration(
-                  color: widget.backgroundColor,
-                  borderRadius: widget.borderRadius,
-                ),
-                child: widget.child,
-              ),
+              child: child,
             );
           },
+          child: DecoratedBox(
+            decoration: BoxDecoration(
+              color: widget.backgroundColor,
+              borderRadius: widget.borderRadius,
+            ),
+            child: Padding(
+              padding: widget.contentPadding,
+              child: widget.child,
+            ),
+          ),
         ),
       ),
     );
