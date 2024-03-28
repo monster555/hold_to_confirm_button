@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hold_to_confirm_button/src/hold_to_confirm_button.dart';
+import 'package:hold_to_confirm_button/hold_to_confirm_button.dart';
 
 void main() => runApp(const MyApp());
 

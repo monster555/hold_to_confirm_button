@@ -1,4 +1,4 @@
-package com.example.hold_to_confirm_button
+package com.example.example
 
 import io.flutter.embedding.android.FlutterActivity
 
