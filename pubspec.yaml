@@ -1,9 +1,9 @@
 name: hold_to_confirm_button
-description: "Another simple UI challenge: a customizable hold-to-confirm button."
+description: "A customizable hold-to-confirm button for Flutter applications."
+repository: https://github.com/monster555/hold_to_confirm_button
+homepage: https://github.com/monster555/hold_to_confirm_button
 
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
-version: 1.0.0+1
+version: 0.0.1
 
 environment:
   sdk: '>=3.3.2 <4.0.0'
@@ -12,13 +12,17 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.6
-
 dev_dependencies:
+  dart_code_metrics: ^5.7.3
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^3.0.0
+  mockito: ^5.4.4
+
+topics:
+  - animation
+  - ui
 
 flutter:
 
